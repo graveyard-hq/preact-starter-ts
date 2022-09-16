@@ -13,7 +13,7 @@ export default function Home() {
           </h1>
 
           <p className={"description"}>
-            <code className={'code'}>npx degit aelpxy/react-template</code>
+            <code className={'code'}>npx degit aelpxy/react-starter-ts</code>
           </p>
         </main>
 
