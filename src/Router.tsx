@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 
-function App() {
+function Router() {
   return (
     <>
       <BrowserRouter>
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Router;
