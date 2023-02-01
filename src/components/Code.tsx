@@ -1,9 +1,5 @@
-export default function Code() {
-  return (
-    <p className={"description"}>
-      <code className={"code"}>
-        npx degit aelpxy/react-starter-ts
-      </code>
-    </p>
-  );
-}
+const Code = ({ children, className }: any) => {
+  return <code className={className}>{children}</code>;
+};
+
+export default Code;

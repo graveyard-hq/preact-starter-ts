@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
+import Home from "./Home";
+import NotFound from "./NotFound";
 
 function Router() {
   return (
@@ -8,15 +9,7 @@ function Router() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* 404 Page */}
-          <Route
-            path="*"
-            element={
-              <main style={{ padding: "1rem" }}>
-                <p>There's nothing here!</p>
-              </main>
-            }
-          />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
